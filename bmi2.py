@@ -2,7 +2,7 @@ import streamlit as st
 w=st.sidebar.number_input("what is your weight\n",step=1)
 w=float(w)
 h=st.sidebar.number_input("what is your height in meters\n")
-st.sidebar.image('unicast logo2.JPG')
+st.sidebar.image('unicast logo2-2.JPG')
 st.selectbox("choose your gender", ["Male", "Female"])
 
 if st.button('calculate'):
